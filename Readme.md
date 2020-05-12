@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Dmitry Chernov](https://up.htmlacademy.ru/htmlcss/28/user/674335).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Шрамко](https://htmlacademy.ru/profile/id852139).
 
 ---
 
