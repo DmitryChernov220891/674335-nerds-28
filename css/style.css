@@ -1,0 +1,262 @@
+/* Variables */
+:root {
+    --black: #000000;
+    --light-black1: #283136;
+    --light-black2: #444444;
+    --light-gray1: #EEEEEE;
+    --light-gray2: #FFFFFF;
+    --gray: #DFDFDF;
+    --dark-gray: #D5D5D5;
+    --main-gray: #D7DCDE;
+    --light-red: #FB565A;
+    --red: #E74246;
+    --dark-red: #D7373B;
+    --light-green: #00CA74;
+    --green: #00BC6C;
+    --dark-green: #00AA62;
+    --light-yellow: #EFC84A;
+    --yellow: #EAB534;
+    --dark-yellow: #E5A722;
+}
+
+/* Global */
+body {
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--light-black1);
+    background-color: var(--main-gray);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 55px;
+    align-items: center;
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+/* Main navigation */
+.main_navigation {
+    line-height: 30px;
+    color: var(--black);
+    background-color: var(--light-gray1);
+    list-style: none;
+}
+
+.main_navigation a:active {
+    color: var(--gray);
+}
+
+.main_navigation a:focus,
+.main_navigation a:hover {
+    color: var(--light-red);
+}
+
+.main_navigation a:visited {
+    text-decoration: underline;
+    text-decoration-color: var(--light-red);
+}
+
+/* Features */
+.features_list {
+    list-style: none;
+}
+
+.feature_item {
+    text-align: left;
+}
+
+.feature_item h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+/* Imagine */
+.social_imagine_vk {
+    position: absolute;
+    width: 26.01px;
+    height: 15px;
+}
+
+.social_iamgine_fb {
+    position: absolute;
+    width: 12px;
+    height: 22px;
+}
+
+.social_iamgine_inst {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+}
+
+.social_imagine_active {
+    opacity: 0.3;
+}
+
+/* Buttons */
+button {
+    background-color: var(--light-gray1) ;
+    border-radius: 3px;
+    color: var (--black)
+}
+
+button:focus {
+    background-color: var(--gray);
+}
+
+button:active {
+    background-color: var(--dark-gray);
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+}
+
+.button {
+    border-radius: 3px;
+    background-color: var(--light-gray1) ;
+    color: var(--light-gray2);
+}
+
+.button_red {
+    background-color: var(--light-red);
+}
+
+.button_red a:active{
+background-color: var(--dark-red);
+opacity: 0.3;
+}
+
+.button_red a:focus,
+.button_red a:hover {
+    background-color: var(--red);
+}
+
+.button_green {
+    background-color: var(--light-green);
+}
+
+.button_green a:active{
+    background-color: var(--dark-green);
+    opacity: 0.3;
+}
+
+.button_green a:focus,
+.button_green a:hover {
+    background-color: var(--green);
+}
+
+.button_yellow {
+    background-color: var(--light-yellow);
+}
+
+.button_yellow a:active{
+    background-color: var(--dark-yellow);
+    opacity: 0.3;
+}
+
+.button_yellow a:focus,
+.button_yellow a:hover {
+    background-color: var(--yellow);
+}
+
+.social_button {
+    width: 81px; 
+    height: 81px;
+    background: var(--light-gray2);
+    border-radius: 50%;
+}
+
+.social_button a:active{
+    background-color: var(--red);
+    opacity: 0.3;
+}
+
+.social_button a:focus,
+.social_button a:hover {
+    background-color: var(--dark-red);
+}
+
+/*Main input*/
+input:disabled {
+    opacity: 0.5;
+}
+
+/* Input for form*/
+.input_form {
+    font: inherit;
+    position: absolute;
+    width: 360px;
+    height: 50px;
+    border-style: solid;
+    border-color: var(--light-gray2);
+    border-width: 2px;
+    border-radius: 3px;
+    color: var(--light-black2);
+    opacity: 0.5;
+}
+
+.input_form input:focus {
+    border-color: var(--black);
+    color: var(--light-black2)
+}
+
+.input_form_ivalid {
+    border-color: var(--red);
+    color: var(--red)
+}
+
+.input_form_text_letter {
+    width: 760px;
+    height: 118px;
+}
+
+/* Input for filter*/
+.input_radio {
+    background-color: var(--dark-gray));
+    color: var(--black)
+}
+
+.input_radio input:focus {
+    background-color: var(--light-black1);
+    color: var(--black)
+}
+
+/* Footer */
+.pseudo_headline {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    line-height: 36px;
+    color: var(--black);
+}
+
+.footer_text {
+    line-height: 22px;
+    align-items: center;
+    color: var(--light-black2);
+}
