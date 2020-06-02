@@ -5,8 +5,8 @@
     --tundora: #444444;
     --gallery: #EEEEEE;
     --white: #FFFFFF;
-    --alto1: #DFDFDF;
-    --alto2: #D5D5D5;
+    --alto1: #D5D5D5;
+    --alto2: #DFDFDF;
     --iron: #D7DCDE;
     --carnation: #FB565A;
     --cinnabar: #E74246;
@@ -69,7 +69,7 @@ img {
 }
 
 .main_navigation a:active {
-    color: var(--alto1);
+    color: var(--alto2);
 }
 
 .main_navigation a:focus,
@@ -177,11 +177,11 @@ img {
 }
 
 .button_for_filter:focus {
-    background-color: var(--alto1);
+    background-color: var(--alto2);
 }
 
 .button_for_filter:active {
-    background-color: var(--alto2);
+    background-color: var(--alto1);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
@@ -238,7 +238,7 @@ input:disabled {
 
 /* Input for filter*/
 .input_radio {
-    background-color: var(--alto2));
+    background-color: var(--alto1));
     color: var(--black)
 }
 
