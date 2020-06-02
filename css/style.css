@@ -60,6 +60,11 @@ img {
     color: var(--black);
 }
 
+/* Logo */
+.logo:active {
+    opacity: 0.5;
+}
+
 /* Main navigation */
 .main_navigation {
     line-height: 30px;
@@ -100,19 +105,16 @@ img {
 
 /* Imagine */
 .social_imagine_vk {
-    position: absolute;
     width: 26.01px;
     height: 15px;
 }
 
 .social_imagine_fb {
-    position: absolute;
     width: 12px;
     height: 22px;
 }
 
 .social_imagine_inst {
-    position: absolute;
     width: 21px;
     height: 21px;
 }
@@ -126,6 +128,38 @@ img {
     border-radius: 3px;
     background-color: var(--gallery) ;
     color: var(--white);
+}
+
+.button_close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+.button_close:hover {
+    opacity: 0;
+}
+
+.button_close:active {
+    opacity: 0.1;
+}
+
+.button_close:before, .button_close:after {
+    position: absolute;
+    left: 15px;
+    height: 33px;
+    width: 2px;
+    background-color: var(--carnation);
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
 }
 
 .button_red {
@@ -203,14 +237,13 @@ img {
 }
 
 /*Main input*/
-input:disabled {
+.input_disabled {
     opacity: 0.5;
 }
 
 /* Input for form*/
 .input_form {
     font: inherit;
-    position: absolute;
     width: 360px;
     height: 50px;
     border-style: solid;
