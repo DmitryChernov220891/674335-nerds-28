@@ -5,15 +5,15 @@
     --tundora: #444444;
     --gallery: #EEEEEE;
     --white: #FFFFFF;
-    --alto1: #D5D5D5;
-    --alto2: #DFDFDF;
+    --alto: #D5D5D5;
+    --gray: #DFDFDF;
     --iron: #D7DCDE;
     --carnation: #FB565A;
     --cinnabar: #E74246;
     --valencia: #D7373B;
     --caribbean_green: #00CA74;
-    --jade1: #00BC6C;
-    --jade2: #00AA62;
+    --jade: #00BC6C;
+    --green: #00AA62;
     --sandstorm: #EFC84A;
     --meat_brown: #EAB534;
     --urobilin: #E5A722;
@@ -74,7 +74,7 @@ img {
 }
 
 .main_navigation a:active {
-    color: var(--alto2);
+    color: var(--gray);
 }
 
 .main_navigation a:focus,
@@ -181,13 +181,13 @@ img {
 }
 
 .button_green a:active{
-    background-color: var(--jade2);
+    background-color: var(--green);
     opacity: 0.3;
 }
 
 .button_green a:focus,
 .button_green a:hover {
-    background-color: var(--jade1);
+    background-color: var(--jade);
 }
 
 .button_yellow {
@@ -211,11 +211,11 @@ img {
 }
 
 .button_for_filter:focus {
-    background-color: var(--alto2);
+    background-color: var(--gray);
 }
 
 .button_for_filter:active {
-    background-color: var(--alto1);
+    background-color: var(--alto);
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
@@ -271,7 +271,7 @@ img {
 
 /* Input for filter*/
 .input_radio {
-    background-color: var(--alto1));
+    background-color: var(--alto);
     color: var(--black)
 }
 
