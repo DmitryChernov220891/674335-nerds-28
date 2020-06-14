@@ -29,60 +29,64 @@
     </header>
     <main>
       <h1 class="main_headline">Магазин готовых шаблонов</h1>
-      <section>
-        <h2 class="visually-hidden">Фильтры</h2>
-        <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
-        <form action="https://echo.htmlacademy.ru" method="GET">     
-          <fieldset>
-            <legend class="legend_headline">Сетка:</legend>
-              <ul>
-                <li>
-                  <input type="radio" name="Adaptive" id="grid_adaptive"> 
-                  <label for="grid_adaptive">Адаптивная</label>
-                </li>
-                <li>
-                  <input type="radio" name="Fixed" id="grid_fixed"> 
-                  <label for="grid_fixed">Фиксированная</label>
-                </li>
-                <li>
-                  <input type="radio" name="Rubber" id="grid_rubber"> 
-                  <label for="grid_rubber">Резиновая</label>
-                </li>
-            </ul>
-          </fieldset>
-        </form>
+        <section class="filters">
+          <h2 class="visually-hidden">Фильтры</h2>
+          <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
+          <div class="filter_grid">
+            <form action="https://echo.htmlacademy.ru" method="GET">     
+              <fieldset>
+                <legend class="legend_headline">Сетка:</legend>
+                  <ul>
+                    <li>
+                      <input type="radio" name="Adaptive" id="grid_adaptive"> 
+                      <label for="grid_adaptive">Адаптивная</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="Fixed" id="grid_fixed"> 
+                      <label for="grid_fixed">Фиксированная</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="Rubber" id="grid_rubber"> 
+                      <label for="grid_rubber">Резиновая</label>
+                    </li>
+                </ul>
+              </fieldset>
+            </form>
+          </div>
 
-        <form action="https://echo.htmlacademy.ru" method="GET">
-          <fieldset>
-            <legend class="legend_headline">Особенности:</legend>
-              <ul>
-                <li>
-                  <input type="checkbox" name="Слайдер" id="feature_slider">
-                  <label for="feature_slider">Слайдер</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
-                  <label for="feature_strengths">Блок преимуществ</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Новости" id="feature_news">
-                  <label for="feature_news">Новости</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Галерея" id="feature_galery">
-                  <label for="feature_galery">Галерея</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="Корзина" id="feature_cart">
-                  <label for="feature_cart">Корзина</label>
-                </li>
-              </ul>
-          </fieldset>
-          <button class="button button_for_filter" type="submit">Показать</button>
-        </form>
-      </section>
+          <div class="filter_features"></div>
+            <form action="https://echo.htmlacademy.ru" method="GET">
+              <fieldset>
+                <legend class="legend_headline">Особенности:</legend>
+                  <ul>
+                    <li>
+                      <input type="checkbox" name="Слайдер" id="feature_slider">
+                      <label for="feature_slider">Слайдер</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
+                      <label for="feature_strengths">Блок преимуществ</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Новости" id="feature_news">
+                      <label for="feature_news">Новости</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Галерея" id="feature_galery">
+                      <label for="feature_galery">Галерея</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Корзина" id="feature_cart">
+                      <label for="feature_cart">Корзина</label>
+                    </li>
+                  </ul>
+              </fieldset>
+              <button class="button button_for_filter" type="submit">Показать</button>
+            </form>
+          </div>
+        </section>
 
-      <section>
+      <section class="shop">
         <h2 class="visually-hidden">Шаблоны наших сайтов</h2>
         <article>
           <img src="img/sedona.jpg" width="358" height="578" alt="Готовый шаблон Sedona">

@@ -305,8 +305,22 @@ img {
     color: var(--black)
 }
 
-/* Footer */
+/* Filters */
+.filters  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
 
+/* Shop */
+.shop article {
+    display: grid;
+    grid-template-columns:
+        1fr 1fr;
+    gap: 40px;
+}
+/* Footer */
 .footer_zone section {
     display: flex;
     flex-direction: row;
