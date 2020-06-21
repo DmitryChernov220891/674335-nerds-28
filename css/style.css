@@ -91,6 +91,20 @@ img {
     outline 5px solid #f70606;
 }
 
+.main_navigation ul {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+.main_navigation ul :last-child {
+    margin-left:auto;
+}
+
+.main_navigation li {
+    margin-right: 44px;
+}
+
 .main_navigation a:active {
     color: var(--gray);
 }
@@ -103,6 +117,15 @@ img {
 .main_navigation a:visited {
     text-decoration: underline;
     text-decoration-color: var(--carnation);
+}
+
+/* Visually hidden*/
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
 /* Features */
@@ -321,7 +344,7 @@ img {
 }
 
 /* Shop */
-.shop article {
+.shop {
     display: grid;
     grid-template-columns:
         1fr 1fr;
