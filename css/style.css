@@ -73,9 +73,13 @@ img {
 }
 
 /* Logo */
+.logo {
+    margin-right: 200px;
+    border: 5px solid #f70606 ;
+}
+
 .logo:active {
     opacity: 0.5;
-    border: 5px solid #f70606 ;
 }
 
 /* Main navigation */
@@ -94,6 +98,8 @@ img {
 .main_navigation ul {
     display: flex;
     width: 100%;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -179,7 +185,7 @@ img {
 }
 
 .button_close {
-    position: absolute;
+    position: relative;
     right: 32px;
     top: 32px;
     width: 32px;
@@ -328,6 +334,13 @@ img {
     color: var(--black)
 }
 
+/* Index */
+.features ul {
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
 /* catalog filters and shop */
 .filters_and_shop {
     display: flex;
@@ -351,22 +364,37 @@ img {
     gap: 40px;
 }
 /* Footer */
-.footer_zone section {
+.footer_zone {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
+.social_icons ul {
+    display:flex;
+    flex-direction:row;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+.social_icons li {
+    margin-right: 9px;
+}
+
 .pseudo_headline {
     font-weight: bold;
     font-size: 36px;
     line-height: 36px;
     line-height: 36px;
     color: var(--black);
+    margin-bottom: 0px;
 }
 
 .footer_text {
     line-height: 22px;
     align-items: center;
     color: var(--tundora);
+    margin-top: 9px;
 }

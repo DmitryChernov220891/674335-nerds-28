@@ -30,62 +30,62 @@
     <main>
       <h1 class="main_headline">Магазин готовых шаблонов</h1>
       <div class="filters_and_shop">  
-        <section class="filters">
-            <h2 class="visually-hidden">Фильтры</h2>
-            <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
-            <div class="filter_grid">
-              <form action="https://echo.htmlacademy.ru" method="GET">     
-                <fieldset>
-                  <legend class="legend_headline">Сетка:</legend>
-                    <ul>
-                      <li>
-                        <input type="radio" name="Adaptive" id="grid_adaptive"> 
-                        <label for="grid_adaptive">Адаптивная</label>
-                      </li>
-                      <li>
-                        <input type="radio" name="Fixed" id="grid_fixed"> 
-                        <label for="grid_fixed">Фиксированная</label>
-                      </li>
-                      <li>
-                        <input type="radio" name="Rubber" id="grid_rubber"> 
-                        <label for="grid_rubber">Резиновая</label>
-                      </li>
-                  </ul>
-                </fieldset>
-              </form>
-            </div>
-
-            <div class="filter_features"></div>
-              <form action="https://echo.htmlacademy.ru" method="GET">
-                <fieldset>
-                  <legend class="legend_headline">Особенности:</legend>
-                    <ul>
-                      <li>
-                        <input type="checkbox" name="Слайдер" id="feature_slider">
-                        <label for="feature_slider">Слайдер</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
-                        <label for="feature_strengths">Блок преимуществ</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" name="Новости" id="feature_news">
-                        <label for="feature_news">Новости</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" name="Галерея" id="feature_galery">
-                        <label for="feature_galery">Галерея</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" name="Корзина" id="feature_cart">
-                        <label for="feature_cart">Корзина</label>
-                      </li>
-                    </ul>
-                </fieldset>
-                <button class="button button_for_filter" type="submit">Показать</button>
-              </form>
-            </div>
+        <div class="filters">
+          <h2 class="visually-hidden">Фильтры</h2>
+          <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
+          <section class="filter_grid">
+            <form action="https://echo.htmlacademy.ru" method="GET">     
+              <fieldset>
+                <legend class="legend_headline">Сетка:</legend>
+                  <ul>
+                    <li>
+                      <input type="radio" name="Adaptive" id="grid_adaptive"> 
+                      <label for="grid_adaptive">Адаптивная</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="Fixed" id="grid_fixed"> 
+                      <label for="grid_fixed">Фиксированная</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="Rubber" id="grid_rubber"> 
+                      <label for="grid_rubber">Резиновая</label>
+                    </li>
+                </ul>
+              </fieldset>
+            </form>
           </section>
+
+          <section class="filter_features"></div>
+            <form action="https://echo.htmlacademy.ru" method="GET">
+              <fieldset>
+                <legend class="legend_headline">Особенности:</legend>
+                  <ul>
+                    <li>
+                      <input type="checkbox" name="Слайдер" id="feature_slider">
+                      <label for="feature_slider">Слайдер</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
+                      <label for="feature_strengths">Блок преимуществ</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Новости" id="feature_news">
+                      <label for="feature_news">Новости</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Галерея" id="feature_galery">
+                      <label for="feature_galery">Галерея</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="Корзина" id="feature_cart">
+                      <label for="feature_cart">Корзина</label>
+                    </li>
+                  </ul>
+              </fieldset>
+              <button class="button button_for_filter" type="submit">Показать</button>
+            </form>
+          </section>
+        </div>
 
         <section class="shop">
           <h2 class="visually-hidden">Шаблоны наших сайтов</h2>
@@ -147,24 +147,21 @@
     </main>
   	<footer class="footer_zone">
   		<!-- Здесь будет часть с картой. Она является футером, так как повторяется на всех страницах. Согласно текущему заданию пока эту часть не размечаю. -->
-  		<section>
+  		<section class="social_icons">
   			<h2 class="visually-hidden">Социальные сети</h2>
   			<ul>
   				<li>
   					<a class="social_button" href="vk.com">
-              Вконтакте
 						  <img class="social-button" src="img/vk-icon.svg" width="26" height="15" alt="Переход на профиль Вконтакте">
 					</a>
   				</li>
   				<li>
   					<a class="social_button" href="facebook.com">
-              Facebook
 						  <img class="social-button" src="img/fb-icon.svg" width="12" height="22" alt="Переход на профиль в Фейсбук">
 					</a>
   				</li>
   				<li>
   					<a class="social_button" href="instagram.com">
-              Instagram
 						  <img class="social-button" src="img/insta-icon.svg" width="21" height="21" alt="Переход на профиль в Инстаграм">
 					</a>
   				</li>
