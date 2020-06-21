@@ -75,7 +75,7 @@ img {
 /* Logo */
 .logo:active {
     opacity: 0.5;
-    outline: 5px solid; #AF002A;
+    border: 5px solid #f70606 ;
 }
 
 /* Main navigation */
@@ -88,7 +88,7 @@ img {
     color: var(--black);
     background-color: var(--gallery);
     list-style: none
-    outline: 5px; solid; #84DE02;
+    outline 5px solid #f70606;
 }
 
 .main_navigation a:active {
@@ -304,6 +304,13 @@ img {
     background-color: var(--outer_space);
     color: var(--black)
 }
+
+/* catalog filters and shop */
+.filters_and_shop {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* Filters */
 .filters  {

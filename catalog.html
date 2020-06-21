@@ -29,119 +29,121 @@
     </header>
     <main>
       <h1 class="main_headline">Магазин готовых шаблонов</h1>
+      <div class="filters_and_shop">  
         <section class="filters">
-          <h2 class="visually-hidden">Фильтры</h2>
-          <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
-          <div class="filter_grid">
-            <form action="https://echo.htmlacademy.ru" method="GET">     
-              <fieldset>
-                <legend class="legend_headline">Сетка:</legend>
-                  <ul>
-                    <li>
-                      <input type="radio" name="Adaptive" id="grid_adaptive"> 
-                      <label for="grid_adaptive">Адаптивная</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="Fixed" id="grid_fixed"> 
-                      <label for="grid_fixed">Фиксированная</label>
-                    </li>
-                    <li>
-                      <input type="radio" name="Rubber" id="grid_rubber"> 
-                      <label for="grid_rubber">Резиновая</label>
-                    </li>
-                </ul>
-              </fieldset>
-            </form>
-          </div>
-
-          <div class="filter_features"></div>
-            <form action="https://echo.htmlacademy.ru" method="GET">
-              <fieldset>
-                <legend class="legend_headline">Особенности:</legend>
-                  <ul>
-                    <li>
-                      <input type="checkbox" name="Слайдер" id="feature_slider">
-                      <label for="feature_slider">Слайдер</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
-                      <label for="feature_strengths">Блок преимуществ</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="Новости" id="feature_news">
-                      <label for="feature_news">Новости</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="Галерея" id="feature_galery">
-                      <label for="feature_galery">Галерея</label>
-                    </li>
-                    <li>
-                      <input type="checkbox" name="Корзина" id="feature_cart">
-                      <label for="feature_cart">Корзина</label>
-                    </li>
+            <h2 class="visually-hidden">Фильтры</h2>
+            <!--Здесь еще будут "Стоимость:" и "Сортировать"-->
+            <div class="filter_grid">
+              <form action="https://echo.htmlacademy.ru" method="GET">     
+                <fieldset>
+                  <legend class="legend_headline">Сетка:</legend>
+                    <ul>
+                      <li>
+                        <input type="radio" name="Adaptive" id="grid_adaptive"> 
+                        <label for="grid_adaptive">Адаптивная</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="Fixed" id="grid_fixed"> 
+                        <label for="grid_fixed">Фиксированная</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="Rubber" id="grid_rubber"> 
+                        <label for="grid_rubber">Резиновая</label>
+                      </li>
                   </ul>
-              </fieldset>
-              <button class="button button_for_filter" type="submit">Показать</button>
-            </form>
-          </div>
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="filter_features"></div>
+              <form action="https://echo.htmlacademy.ru" method="GET">
+                <fieldset>
+                  <legend class="legend_headline">Особенности:</legend>
+                    <ul>
+                      <li>
+                        <input type="checkbox" name="Слайдер" id="feature_slider">
+                        <label for="feature_slider">Слайдер</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="Блок преимуществ" id="feature_strengths">
+                        <label for="feature_strengths">Блок преимуществ</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="Новости" id="feature_news">
+                        <label for="feature_news">Новости</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="Галерея" id="feature_galery">
+                        <label for="feature_galery">Галерея</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="Корзина" id="feature_cart">
+                        <label for="feature_cart">Корзина</label>
+                      </li>
+                    </ul>
+                </fieldset>
+                <button class="button button_for_filter" type="submit">Показать</button>
+              </form>
+            </div>
+          </section>
+
+        <section class="shop">
+          <h2 class="visually-hidden">Шаблоны наших сайтов</h2>
+          <article>
+            <img src="img/sedona.jpg" width="358" height="578" alt="Готовый шаблон Sedona">
+            <a href="#">
+              <h3>Sedona</h3>
+            </a>
+            <p>Информационный сайт для туристов</p>
+            <a href="" class="button">9900</a>
+          </article>
+
+          <article>
+            <img src="img/pink.jpg" width="358" height="578" alt="Готовый шаблон Pink">
+            <a href="#">
+              <h3>Pink</h3>
+            </a>
+            <p>Продуктовый лендинг приложения для iOS и Android</p>
+            <a href="" class="button">Стоимость</a>
+          </article>
+
+          <article>
+            <img src="img/boeodinski.jpg" width="358" height="578" alt="Готовый шаблон Borodinski">
+            <a href="#">
+              <h3>Borodinski</h3>
+            </a>
+            <p>Сайт салона красоты. Для мужчин, да.</p>
+            <a href="" class="button">Стоимость</a>
+          </article>
+
+          <article>
+            <img src="img/mishka.jpg" width="358" height="578" alt="Готовый шаблон Mishka">
+            <a href="#">
+              <h3>Mishka</h3>
+            </a>
+            <p>Интернет-магазин вязаных игрушек</p>
+            <a href="" class="button">Стоимость</a>
+          </article>
+
+          <article>
+            <img src="img/a+.jpg" width="358" height="578" alt="Готовый шаблон a+">
+            <a href="#">
+              <h3>A+</h3>
+            </a>
+            <p>Лендинг курсов повышения квалификации</p>
+            <a href="" class="button">Стоимость</a>
+          </article>
+
+          <article>
+            <img src="img/kvast.jpg" width="358" height="578" alt="Готовый шаблон Кваст">
+            <a href="#">
+              <h3>Кваст</h3>
+            </a>
+            <p>Промо-сайт производителя крафтового кваса</p>
+            <a href="" class="button">Стоимость</a>
+          </article>
         </section>
-
-      <section class="shop">
-        <h2 class="visually-hidden">Шаблоны наших сайтов</h2>
-        <article>
-          <img src="img/sedona.jpg" width="358" height="578" alt="Готовый шаблон Sedona">
-          <a href="#">
-            <h3>Sedona</h3>
-          </a>
-          <p>Информационный сайт для туристов</p>
-          <a href="" class="button">9900</a>
-        </article>
-
-        <article>
-          <img src="img/pink.jpg" width="358" height="578" alt="Готовый шаблон Pink">
-          <a href="#">
-            <h3>Pink</h3>
-          </a>
-          <p>Продуктовый лендинг приложения для iOS и Android</p>
-          <a href="" class="button">Стоимость</a>
-        </article>
-
-        <article>
-          <img src="img/boeodinski.jpg" width="358" height="578" alt="Готовый шаблон Borodinski">
-          <a href="#">
-            <h3>Borodinski</h3>
-          </a>
-          <p>Сайт салона красоты. Для мужчин, да.</p>
-          <a href="" class="button">Стоимость</a>
-        </article>
-
-        <article>
-          <img src="img/mishka.jpg" width="358" height="578" alt="Готовый шаблон Mishka">
-          <a href="#">
-            <h3>Mishka</h3>
-          </a>
-          <p>Интернет-магазин вязаных игрушек</p>
-          <a href="" class="button">Стоимость</a>
-        </article>
-
-        <article>
-          <img src="img/a+.jpg" width="358" height="578" alt="Готовый шаблон a+">
-          <a href="#">
-            <h3>A+</h3>
-          </a>
-          <p>Лендинг курсов повышения квалификации</p>
-          <a href="" class="button">Стоимость</a>
-        </article>
-
-        <article>
-          <img src="img/kvast.jpg" width="358" height="578" alt="Готовый шаблон Кваст">
-          <a href="#">
-            <h3>Кваст</h3>
-          </a>
-          <p>Промо-сайт производителя крафтового кваса</p>
-          <a href="" class="button">Стоимость</a>
-        </article>
-      </section>
+      </div>
     </main>
   	<footer class="footer_zone">
   		<!-- Здесь будет часть с картой. Она является футером, так как повторяется на всех страницах. Согласно текущему заданию пока эту часть не размечаю. -->
