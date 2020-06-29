@@ -348,7 +348,6 @@ img {
     border: 1px solid #D7373B;
 }
 
-
 /* filters*/
 .filters {
     display: flex;
@@ -356,12 +355,10 @@ img {
     border: 1px solid #00CA74
 }
 
-
 /* Shop */
 .shop {
     display: grid;
-    grid-template-columns:
-        1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 40px;
     border: 1px solid #EFC84A
 }
