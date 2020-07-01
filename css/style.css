@@ -132,8 +132,14 @@ img {
 
 .cart {
     position:relative;
-    top: 22px;
-    right: -543px;
+    padding-right: 25px;
+}
+
+.cart img {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
 /* Visually hidden*/
@@ -168,18 +174,34 @@ img {
     text-transform: uppercase;
 }
 
+.feature_discription {
+    width: 260px;
+}
+
 /* Imagine */
 .social_imagine_vk {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 26.01px;
     height: 15px;
 }
 
 .social_imagine_fb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 12px;
     height: 22px;
 }
 
 .social_imagine_inst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 21px;
     height: 21px;
 }
@@ -301,6 +323,8 @@ img {
 }
 
 .social_button {
+    display: block;
+    position: relative;
     width: 81px; 
     height: 81px;
     background: var(--white);
