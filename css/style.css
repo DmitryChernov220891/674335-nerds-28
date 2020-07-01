@@ -54,6 +54,13 @@ img {
     align-content: start;
 }
 
+/* Background colors*/
+.main_background, 
+.footer_zone {
+    background-color: var(--white);
+}
+
+
 /* Headlines*/
 .main_headline {
     font-weight: 500;
@@ -165,17 +172,21 @@ img {
 
 .feature_item {
     text-align: left;
+    margin-right: 100px;
 }
 
 .feature_item h3 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
     color: var(--black);
     text-transform: uppercase;
+    margin-top: 25px;
 }
 
 .feature_discription {
     width: 260px;
+    margin-top: 0px;
+    margin-bottom: 32px;
 }
 
 /* Imagine */
@@ -327,17 +338,17 @@ img {
     position: relative;
     width: 81px; 
     height: 81px;
-    background: var(--white);
+    background: var(--iron);
     border-radius: 50%;
 }
 
-.social_button a:active{
+.social_button:active{
     background-color: var(--cinnabar);
     opacity: 0.3;
 }
 
-.social_button a:focus,
-.social_button a:hover {
+.social_button:focus,
+.social_button:hover {
     background-color: var(--valencia);
 }
 
