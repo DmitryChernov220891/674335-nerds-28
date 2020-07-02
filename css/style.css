@@ -77,6 +77,8 @@ img {
     align-items: center;
     text-transform: uppercase;
     color: var(--black);
+    margin-left: 140px;
+    background-color: var(--gallery)
 }
 
 /* Logo */
@@ -320,9 +322,11 @@ img {
 .button_for_filter {
     background-color: var(--gallery) ;
     border-radius: 3px;
-    color: var (--black)
     padding-left: 88px;
     padding-right: 89px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 50px;
 }
 
 .button_for_filter:focus {
@@ -412,6 +416,7 @@ img {
 .filters_and_shop {
     display: flex;
     flex-direction: row;
+    justify-content:space-around;
     border: 1px solid #D7373B;
 }
 
@@ -419,11 +424,21 @@ img {
 .filters {
     display: flex;
     flex-direction: column;
-    border: 1px solid #00CA74
+    border: 1px solid #00CA74;
+    margin-left: 140px;
+    margin-right:140px;
+}
+
+.filter_grid {
+    margin-bottom: 0px;
 }
 
 .filter_grid ul {
     list-style-type:none;
+}
+
+.filter_features {
+    margin-top: 45px;
 }
 
 .filter_features ul {
