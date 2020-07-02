@@ -139,13 +139,12 @@ img {
 
 .cart {
     position:relative;
-    padding-left: 25px;
 }
 
 .cart_img {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -25px;
     transform: translateY(-50%);
 }
 
@@ -215,10 +214,6 @@ img {
     transform: translate(-50%, -50%);
     width: 21px;
     height: 21px;
-}
-
-.social_imagine:active {
-    opacity: 0.3;
 }
 
 /* Buttons */
@@ -343,13 +338,18 @@ img {
     border-radius: 50%;
 }
 
-.social_button:active{
+.social_button:focus,
+.social_button:hover {
     background-color: var(--cinnabar);
 }
 
-.social_button:focus,
-.social_button:hover {
+.social_button:active{
     background-color: var(--valencia);
+}
+
+.social_button:active .social_imagine{
+    background-color: var(--valencia);
+    opacity: 0.3;
 }
 
 /*Main input*/
