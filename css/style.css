@@ -81,7 +81,7 @@ img {
 
 /* Logo */
 .logo {
-    margin-right: 200px;
+    margin-right: 202px;
 }
 
 .logo:active {
@@ -97,8 +97,8 @@ img {
     line-height: 30px;
     color: var(--black);
     background-color: var(--gallery);
-    list-style: none
-    outline 5px solid #f70606;
+    list-style: none;
+    margin-left: 140px;
 }
 
 .main_navigation ul {
@@ -121,6 +121,10 @@ img {
 
 .main_navigation li {
     margin-right: 44px;
+}
+
+.main_navigation li:nth-child(4) {
+    margin-right: 245px;
 }
 
 .main_navigation a:active {
@@ -158,11 +162,12 @@ img {
 }
 
 /* Features */
-.grid .features {
+.features {
     display: grid;
     grid-template-columns:
         1fr 1fr 1fr;
     column-gap: 100px;
+    margin-left: 140px;
 }
 
 .features_list {
@@ -417,6 +422,14 @@ img {
     border: 1px solid #00CA74
 }
 
+.filter_grid ul {
+    list-style-type:none;
+}
+
+.filter_features ul {
+    list-style-type:none;
+}
+
 /* Shop */
 .shop {
     display: grid;
@@ -428,8 +441,12 @@ img {
 .footer_zone {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.social_icons {
+    margin-left: 140px;
 }
 
 .social_icons ul {
@@ -449,6 +466,7 @@ img {
 
 .friendly_offer {
     margin-left: 0;
+    margin-right: 350px;
 }
 
 .pseudo_headline {
