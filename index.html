@@ -86,18 +86,24 @@
 			  <p class="footer_text">Скидка 10% для друзей из социальных сетей.</p>
   		</section>
 	  </footer>
-	  <section>
+	  <section class="popup">
 		<h2>Напишите нам</h2>
 		<button type="submit" class="button_close"></button>
-		<form action="https://echo.htmlacademy.ru" method="post">
-			<input class="input_form" type="text" name="Ваше имя:" id="your_name" placeholder="Имя фамилия">
-			<label for="your_name">Ваше имя:</label>
+		<form class="popup_block" action="https://echo.htmlacademy.ru" method="post">
+			<p class="popup_block_item">
+				<input class="input_form" type="text" name="Ваше имя:" id="your_name" placeholder="Имя фамилия">
+				<label for="your_name">Ваше имя:</label>
+			</p>
 
-			<input class="input_form" type="email" name="Ваш e-mail:" id="your_email" placeholder="email@example.com">
-			<label for="your_email">Ваш e-mail:</label>
+			<p class="popup_block_item">
+				<input class="input_form" type="email" name="Ваш e-mail:" id="your_email" placeholder="email@example.com">
+				<label for="your_email">Ваш e-mail:</label>
+			</p>
 
-			<input class="input_form input_form_text_letter" type="text" name="Текст письма" id="your_text" placeholder="В свободной форме">
-			<label for="your_text">Текст письма</label>
+			<p class="popup_block_item">
+				<input class="input_form input_form_text_letter" type="text" name="Текст письма" id="your_text" placeholder="В свободной форме">
+				<label for="your_text">Текст письма</label>
+			</p>
 			<button class="button button_red" type="submit">Отправить</button>
 		</form>
 	  </section>	

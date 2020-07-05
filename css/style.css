@@ -272,7 +272,7 @@ img {
 
 .button_red:active{
     background-color: var(--valencia);
-    color: var(--valencia);
+    color: var(--carnation);
 
 }
 
@@ -289,12 +289,12 @@ img {
 
 .button_green:active{
     background-color: var(--green);
+    color: var(--caribbean_green);
 }
 
 .button_green:focus,
 .button_green:hover {
     background-color: var(--jade);
-    color: var(--green);
 }
 
 .button_yellow {
@@ -305,12 +305,12 @@ img {
 
 .button_yellow:active{
     background-color: var(--urobilin);
+    color: var(--sandstorm);
 }
 
 .button_yellow:focus,
 .button_yellow:hover {
     background-color: var(--meat_brown);
-    color: var(--urobilin);
 }
 
 .button_price {
@@ -366,6 +366,28 @@ img {
     opacity: 0.5;
 }
 
+/* Popup*/
+.popup {
+    width: 960px;
+    height: min-content;
+}
+
+.popup h2 {
+    padding-top: 63px;
+    padding-left: 100px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.popup_block {
+    padding-left: 100px;
+    display: flex;
+}
+
+.popup_block_item {
+    
+}
+
 /* Input for form*/
 .input_form {
     font: inherit;
@@ -410,6 +432,18 @@ img {
     display:flex;
     margin: 0;
     padding: 0;
+}
+
+/* Shop headline*/
+.main_headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 108px;
+    padding-top: 73px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--gallery);
 }
 
 /* catalog filters and shop  */
