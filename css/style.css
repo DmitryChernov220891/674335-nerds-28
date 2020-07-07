@@ -20,6 +20,8 @@
 }
 
 /* Global */
+*, *::before, *::after { box-sizing: border-box; }
+
 body {
     min-width: 1280px;
     margin: 0;
@@ -77,8 +79,7 @@ img {
     align-items: center;
     text-transform: uppercase;
     color: var(--black);
-    margin-left: 140px;
-    background-color: var(--gallery)
+    margin: 0px;
 }
 
 /* Logo */
@@ -145,12 +146,13 @@ img {
 
 .cart {
     position:relative;
+    padding-left: 35px;
 }
 
 .cart_img {
     position: absolute;
     top: 50%;
-    left: -25px;
+    left: 0px;
     transform: translateY(-50%);
 }
 
@@ -230,6 +232,7 @@ img {
     color: var(--white);
     padding-top: 17px;
     padding-bottom: 15px;
+    text-transform:uppercase;
 }
 
 .button_close {
@@ -338,6 +341,11 @@ img {
     box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
+.popup_send_button {
+    width: 259px;
+    border-radius:9px; 
+}
+
 .social_button {
     display: block;
     position: relative;
@@ -371,17 +379,18 @@ img {
     position: relative;
     width: 960px;
     height: min-content;
+    padding-top: 63px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 84px;
 }
 
 .popup, h2 {
-    padding-top: 63px;
-    padding-left: 100px;
     padding-bottom: 37px;
     margin: 0;
 }
 
 .popup_block {
-    padding-left: 100px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -394,19 +403,31 @@ img {
     padding-bottom: 34px;
 }
 
+.popup_block_item:nth-child(2) {
+    padding-right: 0px;
+}
+
+.popup_input_headline {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+}
+
 /* Input for form*/
 .input_form {
     font: inherit;
     width: 360px;
     height: 50px;
     border-style: solid;
-    border-color: var(--white);
+    border-color: var(--alto);
     border-width: 2px;
     border-radius: 3px;
     color: var(--tundora);
     opacity: 0.5;
-    padding-left: 16px;
     padding-top:16px;
+    padding-left: 16px;
+    padding-right:16px;
+    padding-bottom:16px;
 }
 
 .input_form input:focus {
@@ -484,6 +505,12 @@ img {
 
 .filter_features ul {
     list-style-type:none;
+}
+
+.fieldset_headline {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 /* Shop */
