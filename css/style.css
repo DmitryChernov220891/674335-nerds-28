@@ -513,9 +513,9 @@ img {
     border: 0;
 }
 
-/* Checkbox*/
+/* Checkbox */
 .check {
-
+    padding-left: 1.2em;
 }
 
 .check_option {
@@ -531,10 +531,33 @@ img {
 
 .check_box {
     position: absolute;
+    margin-left: 1.2em;
     width: 1em;
     height: 1em;
-    background-color: var(--cinnabar);
+    background-image: url(img/checkbox-off.svg);
 }
+
+.check_input:checked + .check_box {
+    background-image: url(img/checkbox-on.svg);
+}
+
+.check_input:focus + .check_box {
+    background-image: url(img/checkbox-off-focus.svg);
+}
+
+.check_input:checked:focus + .check_box {
+    background-image: url(img/checkbox-on-focus.svg);
+}
+
+.check_input:disabled + .check_box {
+    background-image: url(img/checkbox-off-disabled.svg);
+}
+
+.check_input:checked:disabled + .check_box {
+    background-image: url(img/checkbox-on-disabled.svg);
+}
+
+/* Checkbox conditions */
 
 /* Shop */
 .shop {
