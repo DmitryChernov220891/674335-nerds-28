@@ -513,6 +513,29 @@ img {
     border: 0;
 }
 
+/* Checkbox*/
+.check {
+
+}
+
+.check_option {
+
+}
+
+.check_input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check_box {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    background-color: var(--cinnabar);
+}
+
 /* Shop */
 .shop {
     display: grid;
