@@ -522,6 +522,22 @@ img {
 
 }
 
+.filter_section {
+    border: none;
+}
+
+.filter_option {
+    margin-bottom: 17px;
+    padding-left: 0;
+}
+
+.filter_option label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
 .check_input {
     position: absolute;
     -webkit-appearance: none;
@@ -531,30 +547,31 @@ img {
 
 .check_box {
     position: absolute;
-    margin-left: 1.2em;
-    width: 1em;
-    height: 1em;
-    background-image: url(img/checkbox-off.svg);
+    margin-left: -1.2em;
+    width: 1.48em;
+    height: 1.48em;
+    background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.4'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H20C21.65 0 23 1.35 23 3V20C23 21.65 21.65 23 20 23H3C1.35 23 0 21.65 0 20V3C0 1.35 1.35 0 3 0ZM21 3C21 2.458 20.542 2 20 2H3C2.458 2 2 2.458 2 3V20C2 20.542 2.458 21 3 21H20C20.542 21 21 20.542 21 20V3Z' fill='%234D4D4D'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
 }
 
 .check_input:checked + .check_box {
-    background-image: url(img/checkbox-on.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='26' height='23' viewBox='0 0 26 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.4'%3E%3Cpath d='M7.23738 7.48591L4.42688 10.3149L12.159 18.0979L25.9999 4.16591L23.1904 1.33691L12.159 12.4389L7.23738 7.48591Z' fill='%234D4D4D'/%3E%3Cpath d='M20.8627 20C20.8627 20.542 20.4077 21 19.8692 21H2.98038C2.44193 21 1.98692 20.542 1.98692 20V3C1.98692 2.458 2.44193 2 2.98038 2H19.7778L21.3525 0.415C20.9034 0.146542 20.3915 0.00329969 19.8692 0H2.98038C1.34117 0 0 1.35 0 3V20C0 21.65 1.34117 23 2.98038 23H19.8692C21.5084 23 22.8496 21.65 22.8496 20V10.171L20.8627 12.171V20Z' fill='%234D4D4D'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
 
 .check_input:focus + .check_box {
-    background-image: url(img/checkbox-off-focus.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H20C21.65 0 23 1.35 23 3V20C23 21.65 21.65 23 20 23H3C1.35 23 0 21.65 0 20V3C0 1.35 1.35 0 3 0ZM21 3C21 2.458 20.542 2 20 2H3C2.458 2 2 2.458 2 3V20C2 20.542 2.458 21 3 21H20C20.542 21 21 20.542 21 20V3Z' fill='%234D4D4D'/%3E%3C/svg%3E%0A");
 }
 
 .check_input:checked:focus + .check_box {
-    background-image: url(img/checkbox-on-focus.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='25' height='23' viewBox='0 0 25 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.95925 7.48591L4.25684 10.3149L11.6916 18.0979L25.0002 4.16591L22.2988 1.33691L11.6916 12.4389L6.95925 7.48591Z' fill='%234D4D4D'/%3E%3Cpath d='M20.0604 20C20.0604 20.542 19.6229 21 19.1051 21H2.86577C2.34802 21 1.91051 20.542 1.91051 20V3C1.91051 2.458 2.34802 2 2.86577 2H19.0172L20.5313 0.415C20.0996 0.146542 19.6073 0.00329969 19.1051 0H2.86577C1.2896 0 0 1.35 0 3V20C0 21.65 1.2896 23 2.86577 23H19.1051C20.6813 23 21.9709 21.65 21.9709 20V10.171L20.0604 12.171V20Z' fill='%234D4D4D'/%3E%3C/svg%3E%0A");
 }
 
 .check_input:disabled + .check_box {
-    background-image: url(img/checkbox-off-disabled.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='23' height='23' viewBox='0 0 23 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.1'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H20C21.65 0 23 1.35 23 3V20C23 21.65 21.65 23 20 23H3C1.35 23 0 21.65 0 20V3C0 1.35 1.35 0 3 0ZM21 3C21 2.458 20.542 2 20 2H3C2.458 2 2 2.458 2 3V20C2 20.542 2.458 21 3 21H20C20.542 21 21 20.542 21 20V3Z' fill='%234D4D4D'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
 
 .check_input:checked:disabled + .check_box {
-    background-image: url(img/checkbox-on-disabled.svg);
+    background-image: url("data:image/svg+xml,%3Csvg width='26' height='23' viewBox='0 0 26 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.1'%3E%3Cpath d='M7.23727 7.48591L4.42676 10.3149L12.1589 18.0979L25.9999 4.16591L23.1904 1.33691L12.1589 12.4389L7.23727 7.48591Z' fill='%234D4D4D'/%3E%3Cpath d='M20.8628 20C20.8628 20.542 20.4078 21 19.8693 21H2.9804C2.44194 21 1.98693 20.542 1.98693 20V3C1.98693 2.458 2.44194 2 2.9804 2H19.7779L21.3526 0.415C20.9035 0.146542 20.3916 0.00329969 19.8693 0H2.9804C1.34118 0 0 1.35 0 3V20C0 21.65 1.34118 23 2.9804 23H19.8693C21.5085 23 22.8497 21.65 22.8497 20V10.171L20.8628 12.171V20Z' fill='%234D4D4D'/%3E%3C/g%3E%3C/svg%3E%0A");
 }
 
 /* Checkbox conditions */
